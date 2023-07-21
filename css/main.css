@@ -1,8 +1,8 @@
-/* General */
 :root {
     --max-width: 1280px;
     --min-width: 320px;
-    --accent-color: #00c2ff;
+    --accent-color: #0ec4fc;
+    --accent-color2: #03799c;
 }
 
 html, body {
