@@ -1,9 +1,24 @@
 .content {
     flex-grow: 1;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    position: relative;
+}
+.slideButton {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    cursor: pointer;
+}
+.prevSlide {
+    left: -3rem;
+}
+.nextSlide {
+    right: 3rem;
 }
 .content__claim {
     font-size: 64px;
