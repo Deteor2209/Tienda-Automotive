@@ -1,0 +1,26 @@
+/* General */
+:root {
+    --max-width: 1280px;
+    --min-width: 320px;
+    --accent-color: #00c2ff;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.book-appointment{
+    background-color: var(--accent-color);
+    padding: 1rem 2rem;
+    font-size: 24px;
+}

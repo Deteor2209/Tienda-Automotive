@@ -1,0 +1,17 @@
+.footer-wrapper {
+    background-color: black;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__widget {
+    font-size: 16px;
+}
+.footter__widget__title {
+    color: var(--accent-color);
+    margin: 0 0 1rem 0;
+}
+.footer__widget__text {
+    margin: 0;
+}
